@@ -5,7 +5,7 @@ Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 
 ## Usage
 
 
-- [Add new TV show to scheduler](#Add new TV show to scheduler)
+- [Add new TV show to scheduler](#AddnewTVshowtoscheduler)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
