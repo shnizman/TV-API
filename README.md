@@ -16,7 +16,7 @@ pip install foobar
 
 id - The requested TV Show Id from [TVMaze API](https://www.tvmaze.com/api#shows)
 
-```json
+```
 POST http://localhost:8080/api/tvSchedule/tvShow?id={id}
 Accept: application/json
 Content-Type: application/json
