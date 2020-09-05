@@ -18,7 +18,7 @@ Content-Type: application/json
 
 #### Response
 
-```
+```json
 200 OK
 {
     "id": 1,
@@ -38,7 +38,7 @@ Content-Type: application/json
     ]
 }
 ```
-```
+```json
 404 NOT FOUND
 {
     "timestamp": "2020-09-05T17:18:26.631+0000",
@@ -48,7 +48,7 @@ Content-Type: application/json
     "path": "/api/tvSchedule/tvShow"
 }
 ```
-```
+```json
 400 Bad Request
 {
     "timestamp": "2020-09-05T17:19:22.723+0000",
@@ -58,7 +58,7 @@ Content-Type: application/json
     "path": "/api/tvSchedule/tvShow"
 }
 ```
-```
+```json
 500 Internal Server Error
 {
     "timestamp": "2020-09-05T17:19:22.723+0000",
@@ -74,7 +74,7 @@ Content-Type: application/json
 
 id - The requested TV Show Id from [TVMaze API](https://www.tvmaze.com/api#shows)
 
-```json
+```
 DELETE http://localhost:8080/api/tvSchedule/tvShow?id={id}
 Accept: application/json
 Content-Type: application/json
@@ -119,7 +119,7 @@ Content-Type: application/json
 ### Get All scheduled TV shows
 #### Request
 
-```json
+```
 GET http://localhost:8080/api/tvSchedule/tvShows
 Accept: application/json
 Content-Type: application/json
@@ -202,7 +202,7 @@ Content-Type: application/json
 ### Mark an episode as watched
 #### Request
 
-```json
+```
 PUT http://localhost:8080/api/tvSchedule/episode?id={id}
 Accept: application/json
 Content-Type: application/json
