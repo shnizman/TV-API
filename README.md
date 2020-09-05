@@ -1,14 +1,6 @@
 # TV-API : TV Scheduler
 
-Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 in memory DB
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 in memory DB.
 
 ## Usage
 ### Add new TV show to scheduler
@@ -16,7 +8,7 @@ pip install foobar
 
 id - The requested TV Show Id from [TVMaze API](https://www.tvmaze.com/api#shows)
 
-```json
+```
 POST http://localhost:8080/api/tvSchedule/tvShow?id={id}
 Accept: application/json
 Content-Type: application/json
