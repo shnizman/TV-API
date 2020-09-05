@@ -2,7 +2,8 @@
 
 Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 in memory DB.
 
-##Installation
+## Installation
+
 To run the application type
 
 mvn spring-boot:run
