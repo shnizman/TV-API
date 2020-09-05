@@ -157,7 +157,7 @@ Content-Type: application/json
 ### Get All unwatched scheduled TV shows
 #### Request
 
-```json
+```
 GET http://localhost:8080/api/tvSchedule/tvShows/unwatched
 Accept: application/json
 Content-Type: application/json
