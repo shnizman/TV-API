@@ -51,7 +51,7 @@ Content-Type: application/json
 }
 ```
 ```json
-404 NOT FOUND
+404 Not Found
 {
     "timestamp": "2020-09-05T17:18:26.631+0000",
     "status": 404,
