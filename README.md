@@ -18,7 +18,7 @@ it has been created.
 ```
 java -jar target/TV_Scheduler.jar
 ```
-- Alternatively, you can run the `main` method in `SchoolEnrollment.java` in your chosen IDE, e.g. `IntelliJ`
+- Alternatively, you can run the `main` method in `TV_Scheduler.java` in your chosen IDE, e.g. `IntelliJ`
 
 
 ## Usage
