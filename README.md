@@ -4,8 +4,8 @@ Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 
 
 ### Run the project
 ```
-git clone https://github.com/shnizman/School-Enrollment.git
-cd School-Enrollment/SchoolEnrollment
+git clone https://github.com/shnizman/TV-Scheduler.git
+cd TV-Scheduler/TV_Scheduler
 ```
 
 - Clean and build the project, run the command:
@@ -16,7 +16,7 @@ This will  generate a jar file with all the dependencies which we will run once
 it has been created.
 - Run the `jar` file by using the following command 
 ```
-java -jar target/SchoolEnrollment.jar
+java -jar target/TV_Scheduler.jar
 ```
 - Alternatively, you can run the `main` method in `SchoolEnrollment.java` in your chosen IDE, e.g. `IntelliJ`
 
