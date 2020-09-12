@@ -2,15 +2,24 @@
 
 Simple TV scheduler, a backend Rest API, using Java, Spring, Spring boot and m2 in memory DB.
 
-## Installation
+### Run the project
+```
+git clone https://github.com/shnizman/School-Enrollment.git
+cd School-Enrollment/SchoolEnrollment
+```
 
-To run the application type
-
-mvn spring-boot:run
-
-
+- Clean and build the project, run the command:
+```
 mvn install
-If you are using maven, please refer to the mvn repository and choose your desired package version.
+```
+This will  generate a jar file with all the dependencies which we will run once
+it has been created.
+- Run the `jar` file by using the following command 
+```
+java -jar target/SchoolEnrollment.jar
+```
+- Alternatively, you can run the `main` method in `SchoolEnrollment.java` in your chosen IDE, e.g. `IntelliJ`
+
 
 ## Usage
 
